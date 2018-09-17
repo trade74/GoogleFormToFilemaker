@@ -5,9 +5,9 @@ function postToFilemaker(e) {
   var googleFormData = JSON.stringify(e) ;  //  Logger.log(googleFormData);
 
   //--- configure filemaker connection ---//
-  var serverPath = "https://fm107.beezwax.net/fmi/rest/api" ;
-  var filename = "google_forms_rest";
-  var account = "google_form" ;
+  var serverPath = "https://filemaker.dyukemedia.com/fmi/rest/api" ;
+  var filename = "Fabricated";
+  var account = "webhook" ;
   var password = "<password>" ; // use your own password here
 
   //--- configure filemaker data ---//
